@@ -7,17 +7,16 @@ let server = http.createServer((req, res) => {
     res.write(`
     <html>
     <head>
-    <title>
-    My First Page
-    </title>
+        <title>
+            My First Page
+        </title>
     </head> 
     <body>
-    <h1>
-        Hello from my node.js server
-    </h1>
+        <h1>
+            Hello from my node.js server
+        </h1>
     </body>
     </html> 
-    
     `);
     res.end();
 });
