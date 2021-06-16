@@ -1,6 +1,6 @@
 import http from 'http';
 // const http = require('http')
-let server = http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
     console.log(req.url, req.method, req.headers);
     // process.exit()
     res.setHeader('Content-Type', 'text/html');
